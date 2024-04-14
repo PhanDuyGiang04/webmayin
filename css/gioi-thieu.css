@@ -1,0 +1,43 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.thogtindn {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.thogtindn p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.breadcrumb {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.breadcrumb-item {
+    display: inline;
+    font-size: 14px;
+    color: #333;
+    font-size: 18px;
+}
+
+.breadcrumb-item.active {
+    color: #ff0000;
+}
+
+.breadcrumb-item.active::before {
+    content: '>';
+    margin-right: 5px;
+}
+
+.breadcrumb-item.active a {
+    color: #ff0000;
+}
